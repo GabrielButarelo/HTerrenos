@@ -1,0 +1,56 @@
+Config:
+  Preco_Por_Bloco: 10
+  Terreno_Tamanhos: "10;20;30;40;50;60;70;80;90;100"
+  Max_Areas_Normal: 5
+  Max_Areas_VIP: 10
+  Separador_Nome: "-"
+  Bloco_Parede_ID: 89
+  Y_Max: 256
+  Y_Min: 0
+  Preco_Alterar_PVP: 5000
+  Preco_Alterar_Mob_Spawn: 5000
+  Preco_Alterar_Entrar: 5000
+  Preco_Alterar_Bau_Acesso: 5000
+  
+GUI:
+  Dono:
+  Nome: "&6** &aTerreno &6**"
+  Itens:
+    PVP: "276;&c&lAlterar o PvP"
+    Info: "340;&c&lInfo Do Terreno"
+    Comprar: "264;&c&lComprar Terreno"
+    Deleta: "119;&c&lDeletar Terreno"
+    Amigo_Add: "310;&c&lAdicionar Amigo"
+    Amigo_Del: "312;&c&lRemover Amigo"
+    Mob: "289;&c&lAlterar Mob Spawn"
+    Bau_Acesso: "146;&c&lAlterar Bau"
+    Entrar: "324;&c&lAlterar Acesso"
+    TP: "90;&c&lTeleportar Para Um Terreno"
+    Terreno: "264;&c&lTerreno $nome$"
+    Comprar_Tamanho: "98;&cTamanho $tamanho$"
+    Espaco_Vazio: "160;&8&lEspaco Vazio"
+
+Mensagens:
+  Terreno_Nome: "&a[Terreno] &6Utilize o comando /terreno nome <nome> para definir o nome do seu terreno, nao se mova, nao desconecte e nao se teleporte, caso contrario a compra sera cancelada!"
+  Nao_Esta_Comprando: "&a[Terreno] &6Voce so pode digitar o nome do seu terreno quando comprar um com /terreno!"
+  Maximo_Terrenos: "&a[Terreno] &6Voce ja atingiu o limite de &a$quantidade$ &6terrenos!"
+  Compra_Cancelada: "&a[Terreno] &6A compra do seu terreno foi cancelada por algum dos seguintes motivos: &ateleportou - se moveu - desconectou do servidor - utilizou outro comando"
+  Ja_Existe_Nome: "&a[Terreno] &6Voce ja tem uma area com esse nome!"
+  Contem_Terreno_Perto: "&a[Terreno] &6Existe um terreno por perto, va mais longe!"
+  Sem_Money_Suficiente: "&a[Terreno] &6Voce nao tem o money suficiente para isso (&a$quantidade$ Reais&6)!"
+  Sem_Area: "&a[Terreno] &6Essa área nao pertence a nenhum jogador!"
+  Nao_Tem_Terrenos: "&a[Terreno] &6Voce nao tem nenhum terreno para ver!"
+  Nao_Tem_Amigos: "&a[Terreno] &6Voce nao tem nenhum amigo adicionado a esse terreno!"
+  Para_Comprar: "&a[Terreno] &6Para comprar um terreno utilize &a/terreno comprar <nome> <tamanho>"
+  PVP_Alterado: "&a[Terreno] &6O PVP do seu terreno foi alterado com sucesso!"
+  Mob_Spawn_Alterado: "&a[Terreno] &6O spawn de mobs do seu terreno foi alterado com sucesso!"
+  Entrar_Alterado: "&a[Terreno] &6O acesso ao seu terreno foi alterado com sucesso!"
+  Bau_Acesso_Alterado: "&a[Terreno] &6O acesso aos baus do seu terreno foi alterado com sucesso!"
+  Amigo_Removido: "&a[Terreno] &6O jogador &a$nick$ &6foi removido do seu terreno!"
+  Amigo_Adicionado: "&a[Terreno] &6O jogador &a$nick$ &6foi adicionado ao seu terreno!"
+  Terreno_Deletado: "&a[Terreno] &6O seu terreno foi deletado com sucesso!"
+  Comprou_Sucesso:
+    - "&a[Terreno] &6Terreno comprado com sucesso por &a$quantidade$ coins&6!"
+    - "&a[Terreno] &6Veja os outros comandos do seu terreno com /terreno!"
+  Terreno_Info:
+    - "&a[Terreno] &6Esse terreno pertence ao jogador &a$dono$"

@@ -1,8 +1,0 @@
-main: me.herobrinedobem.hterrenos.HTerrenos
-name: HTerrenos
-version: 1.0
-description: Plugin de terrenos
-
-commands:
-    terreno:
-        description: Todos os comandos do plugin
